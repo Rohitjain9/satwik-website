@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satwik Foods & Spices Pvt. Ltd.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf7ef;
+      color: #3e2f1c;
+    }
+    header {
+      background-color: #8a5a44;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #e2cbb1;
+      padding: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #3e2f1c;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://example.com/spice-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      background-color: #fff;
+      max-width: 200px;
+      text-align: center;
+    }
+    footer {
+      background-color: #8a5a44;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Satwik Foods & Spices Pvt. Ltd.</h1>
+    <p>Pure. Ethical. Flavorful.</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">
+    <h2>Experience Purity in Every Pinch</h2>
+    <p>Farm-sourced spices, cold-ground and lab-tested for your peace of mind.</p>
+  </div>
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Satwik Foods & Spices is committed to offering unadulterated, farm-sourced, chemical-free spices and seasonings. Our focus is on authenticity, purity, and sustainability, ensuring that every product you receive is rich in flavor and nutritional value.</p>
+  </section>
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Turmeric Powder</h3>
+        <p>Cold-ground and lab-tested for purity.</p>
+      </div>
+      <div class="product">
+        <h3>Red Chilli Powder</h3>
+        <p>Bold flavor, zero additives.</p>
+      </div>
+      <div class="product">
+        <h3>Coriander Powder</h3>
+        <p>Fresh, aromatic, ethically sourced.</p>
+      </div>
+      <div class="product">
+        <h3>Whole Spices</h3>
+        <p>Cinnamon, Clove, Cardamom, and more.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>For orders and inquiries, please reach out:</p>
+    <ul>
+      <li>📞 Navita Jain – 9560431333</li>
+      <li>📧 navita.jain05@gmail.com</li>
+      <li>📍 Whitefield, Bengaluru</li>
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; 2025 Satwik Foods & Spices Pvt. Ltd. | All rights reserved.</p>
+  </footer>
+</body>
+</html>
